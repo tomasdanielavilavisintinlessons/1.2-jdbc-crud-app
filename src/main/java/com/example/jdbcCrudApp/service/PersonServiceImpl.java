@@ -1,7 +1,7 @@
-package service;
+package com.example.jdbcCrudApp.service;
 
-import dao.PersonDAO;
-import dao.PersonDAOImpl;
+import com.example.jdbcCrudApp.dao.PersonDAO;
+import com.example.jdbcCrudApp.dao.PersonDAOImpl;
 
 public class PersonServiceImpl implements PersonService {
     private PersonDAO personDAO;

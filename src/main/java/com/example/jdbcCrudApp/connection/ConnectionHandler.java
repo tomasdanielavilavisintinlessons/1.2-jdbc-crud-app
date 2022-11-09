@@ -1,4 +1,4 @@
-package connection;
+package com.example.jdbcCrudApp.connection;
 
 import java.sql.Connection;
 

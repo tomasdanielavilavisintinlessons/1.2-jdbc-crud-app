@@ -1,4 +1,4 @@
-package connection;
+package com.example.jdbcCrudApp.connection;
 
 import com.mysql.cj.jdbc.MysqlDataSource;
 
@@ -13,9 +13,9 @@ public class ConnectionHandlerImpl implements ConnectionHandler {
     private ConnectionHandlerImpl() {
         try {
             MysqlDataSource dataSource = new MysqlDataSource();
-            dataSource.setURL("jdbc:mysql://localhost:3306/first-exercise-jdbc");
+            dataSource.setURL("jdbc:mysql://localhost:3306/jdbccrudapp");
             dataSource.setUser("root");
-            dataSource.setPassword("Mysql&!2022");
+            dataSource.setPassword("root");
             this.connection = dataSource.getConnection();
         } catch (SQLException e) {
             throw new RuntimeException(e);

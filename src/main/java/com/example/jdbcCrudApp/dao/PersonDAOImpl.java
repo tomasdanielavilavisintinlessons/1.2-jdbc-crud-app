@@ -1,9 +1,9 @@
-package dao;
-
-import connection.ConnectionHandler;
-import connection.ConnectionHandlerImpl;
+package com.example.jdbcCrudApp.dao;
 
 import java.sql.*;
+
+import com.example.jdbcCrudApp.connection.ConnectionHandler;
+import com.example.jdbcCrudApp.connection.ConnectionHandlerImpl;
 
 public class PersonDAOImpl implements PersonDAO {
     private ConnectionHandler connection;

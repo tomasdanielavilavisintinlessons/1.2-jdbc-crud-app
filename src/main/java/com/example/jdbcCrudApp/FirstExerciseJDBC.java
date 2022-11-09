@@ -1,8 +1,9 @@
+package com.example.jdbcCrudApp;
 
-
-import service.PersonServiceImpl;
 
 import java.util.Scanner;
+
+import com.example.jdbcCrudApp.service.PersonServiceImpl;
 
 public class FirstExerciseJDBC {
     public static void main(String[] args) {
